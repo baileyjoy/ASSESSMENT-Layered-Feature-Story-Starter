@@ -28,8 +28,30 @@ body{
     margin:0;
     color:var(--color-text);
     background:var(--color-surface);
-    font-family:Arial,sans-serif;
+    font-family:Arial,Helvetica, sans-serif;
     line-height:1.6;
+}
+
+h1, h2,h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height:1.2;
+}
+
+h1{
+    font-size:clamp(2rem,5vw,4rem);
+    font-weight:400;
+    letter-spacing:-.03em;
+}
+
+h2{
+    font-size:clamp(1.5rem,4vw,3rem);
+    font-weight:400;
+}
+
+.eyebrow{
+    text-transform:uppercase;
+    letter-spacing:0.15em;
+    font-size: 0.8rem;
 }
 .feature-header{
     position:relative;

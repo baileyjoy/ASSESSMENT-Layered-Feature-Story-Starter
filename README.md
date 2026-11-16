@@ -13,4 +13,4 @@ A mix of vintage nostalgia and modern editorial design, using warm colors, creat
 
 -Step two: Updated the HTML title, headline, introduction, issue badge, and color pallet. 
 
-
+-Step Three: Added editorial serif heading and responsive typography for a modern magazine appearance. 
