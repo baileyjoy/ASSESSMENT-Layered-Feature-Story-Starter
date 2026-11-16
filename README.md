@@ -22,3 +22,5 @@ A mix of vintage nostalgia and modern editorial design, using warm colors, creat
 -Step Six: Added the second article section about postcards as travel memories, keepsakes, and art.
 
 -Step Seven: Added a third section about slowing down called The Art of Slowing Down
+
+-Step Eight: Added personal story about collecting and sending postcards during my six weeks in Ireland.
