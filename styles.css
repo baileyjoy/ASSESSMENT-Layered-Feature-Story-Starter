@@ -1,13 +1,18 @@
 :root{
-    --color-text:#404040;
-    --color-surface:#fff;
-    --color-action:#8c1d40;
-    --color-accent:#ffc627;
-    --color-border:#d0d0d0;
-    --color-muted:#5c6670;
+    /* Postmarked magazine color palette */
+    --color-text:#49352f;
+    --color-surface:#f5efe5;
+    --color-action:#a94f46;
+    --color-accent:#e8b6ae;
+    --color-border:#c9b9a9;
+    --color-muted:#70645c;
+
+    /* Spacing and layout */
     --space-3:1rem;
     --radius:.5rem;
     --measure:68ch;
+
+    /* Layer System */
     --layer-base:0;
     --layer-raised:10;
     --layer-sticky:20;
