@@ -20,3 +20,5 @@ A mix of vintage nostalgia and modern editorial design, using warm colors, creat
 -Step Five: Added editorial content about handwritten postcards, personal connections, and romanticizing everyday moments. 
 
 -Step Six: Added the second article section about postcards as travel memories, keepsakes, and art.
+
+-Step Seven: Added a third section about slowing down called The Art of Slowing Down
