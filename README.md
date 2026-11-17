@@ -57,3 +57,36 @@ A mix of vintage nostalgia and modern editorial design, using warm colors, creat
 -Step 22: Replaced the documentation placeholder with a composition plan link, CSS support overview, image credits and AI assistance disclosure. 
 
 -Step 23: Fixed the sticky "in this story" navigation by placing the sidebar and article inside a shared story-layout container. Updated CSS Grid so the nav remains in the left column and is bounded by the article instead of extending into the documentation section.
+
+# ---Browser Support and Fallbacks---
+Reviewed November 17, 2026
+
+1. CSS Grid and Flexbox
+Used to arrange the article, sidebar, and postcard collage. 
+Fallback: content remains in HTML reading order if these layout features are unavailable.
+
+2. Stick Positioning
+Used for the "In This Story" navigation on wider screens. 
+Fallback: The navigation remains in normal document flow when sticky positioning is unavailable or disabled. 
+
+3. Absolute Positioning
+Used for the "Wish You Were Here" badge in the header.
+Fallback: On smaller screens, the badge uses relative positioning to avoid covering the heading.
+
+4. Border Radius
+Used for rounded image frames and the oval rose illustration.
+Fallback: Images remain visible with square corners.
+
+5. Clip Path
+Used to give the vintage postcard photograph an irregular paper-cut edge. 
+Fallback: The photograph displays without clipping. The effect is inside an @support rule.
+
+5. Shape Outside
+Used to wrap article text around the floral illustration. 
+Fallback: Text wraps around the rectangular floated image on desktop when shape-outside is unsupported. On smaller screens, the image returns to normal flow. 
+
+# ---MDN References---
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/position
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/clip-path
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/shape-outside
+
