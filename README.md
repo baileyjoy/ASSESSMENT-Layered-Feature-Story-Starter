@@ -58,6 +58,8 @@ A mix of vintage nostalgia and modern editorial design, using warm colors, creat
 
 -Step 23: Fixed the sticky "in this story" navigation by placing the sidebar and article inside a shared story-layout container. Updated CSS Grid so the nav remains in the left column and is bounded by the article instead of extending into the documentation section.
 
+-Step 24:Completed the composition plan with six layout and positioning techniques, including fallbacks and required tests. 
+
 # ---Browser Support and Fallbacks---
 Reviewed November 17, 2026
 
@@ -151,3 +153,31 @@ Fallback Testing Summary
 Both CSS enhancements were tested by temporarily disabling their declarations in Chrome DevTools
 
 Evidence: images/screenshotsCSSfallback
+
+# --- CSS Validation ---
+Date: November 17,2026
+Tool: W3C CSS Validation service
+Result: Three reported errors related to CSS Shapes.
+
+The validator flagged shape-outside and shape-margin, which are valid CSS properties supported by modern browsers. These properties rae intentionally used for the botanical illustrations curved text wrap.
+The feature was tested in Chrome including a fallback test with shape-outside disabled. Text remained readable. 
+
+Evidence: images/css-validation
+
+# --- HTML Validation ---
+Date: November 17, 2026
+Tool: W3C Nu HTML Checker
+
+Files tested:
+-index.html
+-composition-plan.html
+
+Results: 
+-corrected an image filename containing a space.
+-added an identifying heading inside the article.
+-corrected the article's aria-labelledby by reference.
+-reviewed html structure and accessibility.
+
+Evidence: 
+-images/html-validation.png
+-images/html-composition-validator.png

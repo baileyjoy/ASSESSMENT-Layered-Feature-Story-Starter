@@ -50,23 +50,64 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Feature postcard image</td>
-                        <td>Introduces the story with decorative postcard artwork.</td>
+                        <td>Vintage postcard Photo</td>
+                        <td>Illustrates the history and personal appeal of postcards.</td>
                         <td>Image appears as a regular figure with a caption</td>
-                        <td>Border-radius softens corners and clip-path creates an angled shape.</td>
-                        <td>The feature figure provides the visual boundary.</td>
-                        <td>Display the original rectangular image if clipping is unsupported.</td>
-                        <td>Disable clip-path and test image readability.</td>
+                        <td>Border-radius softens corners and clip-path creates an angled paper like edges.</td>
+                        <td>The feature figure provides the image's visual frame.</td>
+                        <td>Without clip-path, the image remains visible in its normal rectangular shape.</td>
+                        <td>Disable clip-path and confirm the image remains visible and readable.</td>
                     </tr>
 
                     <tr>
-                        <td>Postcard illustration</td>
-                        <td>Adds a visual element beside the article text.</td>
-                        <td>Image appears as a block before the paragraph.</td>
-                        <td>Float and shape-outside create an editorial text wrap.</td>
+                        <td>Oval botanical illustration</td>
+                        <td>Adds a romantic vintage illustration beside the article text.</td>
+                        <td>Image appears before the section paragraphs.</td>
+                        <td>Float and shape-outside create curved editorial text wrap.</td>
                         <td>The article section contains the float using flow-root.</td>
-                        <td>Use a block image when shape wrapping is unavailable.</td>
-                        <td>Disable shape-outside and test at all viewport sizes.</td>
+                        <td>Without shape-outside, text wraps around the rectangular floating image box on desktop.
+                            On mobile, the image returns to normal flow.
+                        </td>
+                        <td>Disable shape-outside and confirm text remains readable.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Layering System</td>
+                        <td>Controls which decorative and navigational elements appear above others.</td>
+                        <td>Elements follow their normal document order.</td>
+                        <td>CSS custom properties define consistent z-index levels.</td>
+                        <td>Positioned elements and the isolated collage control stacking.</td>
+                        <td>Content remains readable when decorative overlap is removed.</td>
+                        <td>Inspect stacking and confirm no important content is hidden.</td>
+                    </tr>
+                    <tr>
+                        <td>Header issue badge</td>
+                        <td>Displays the decorative "Wish You Were Here".</td>
+                        <td>The badge follows the heading and introduction in normal flow.</td>
+                        <td>Absolute positioning anchors the badge to the feature header on desktop.</td>
+                        <td>The positioned feature header is the containing block.</td>
+                        <td>On smaller screens, the badge returns to normal layout positioning.</td>
+                        <td>Check badge placement at desktop and mobile widths.</td>
+                    </tr>
+
+                    <tr>
+                        <td>In This Story navigation</td>
+                        <td>Provides quick links to the three article sections.</td>
+                        <td>The navigation appears before the article in reading order.</td>
+                        <td>Sticky positioning keeps navigation available when reading.</td>
+                        <td>The story-layout container bounds sticky movement before documentation.</td>
+                        <td>On narrow screens, navigation uses normal positioning.</td>
+                        <td>Scrolling through the article and confirm navigation does not overlap documentation.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Overlapping postcard collage</td>
+                        <td>Creates a vintage scrapbook-style introduction.</td>
+                        <td>Two illustrated postcards appear side by side.</td>
+                        <td>CSS Grid, transform, negative margins, and z-index create controlled overlap.</td>
+                        <td>The isolated postcard-collage creates a local stacking context.</td>
+                        <td>On smaller screens, the postcards stack without overlap.</td>
+                        <td>Check overlap and text visibility at desktop, tablet, and mobile widths.</td>
                     </tr>
                 </tbody>
             </table>
