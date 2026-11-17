@@ -138,10 +138,18 @@ img{
     height:auto;
 }
 .pull-quote{
+    position: relative;
     margin:2rem 0;
-    padding:1rem;
-    border-inline-start:.4rem solid var(--color-accent);
-    font-size:1.35rem;
+    padding:1.5rem;
+    background: #fffaf3;
+    border: 1px solid var(--color-border);
+    border-left: 5px solid var(--color-action);
+    border-radius: var(--radius);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:clamp(1.25rem, 2.5vw, 1.7rem);
+    font-style: italic;
+    line-height: 1.5;
+    box-shadow: 6px 6px 0 var(--color-accent);
 }
 .shape-portrait{
     width:min(45%,20rem);
@@ -163,10 +171,10 @@ img{
         z-index:var(--layer-sticky);
     }
     .pull-quote{
-        position:relative;
         z-index:var(--layer-raised);
-        margin-inline-start:-4rem;
-        background:var(--color-surface);;
+        margin-inline-start:-1rem;
+        margin-inline-end: 1rem;
+        transform: rotate(-1deg);
     }
     @supports (shape-outside:circle(50%)){
         .shape-portrait{
