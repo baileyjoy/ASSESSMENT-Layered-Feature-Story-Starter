@@ -24,3 +24,5 @@ A mix of vintage nostalgia and modern editorial design, using warm colors, creat
 -Step Seven: Added a third section about slowing down called The Art of Slowing Down
 
 -Step Eight: Added personal story about collecting and sending postcards during my six weeks in Ireland.
+
+-Step Nine: Created a composition plan documenting the magazine's positioning, layers, and shapes.

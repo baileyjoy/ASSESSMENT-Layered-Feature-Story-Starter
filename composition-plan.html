@@ -30,7 +30,12 @@
         </head>
         <body>
             <h1>L6 · Composition Plan</h1>
-            <p>Complete one row for every positioned, layered, clipped, rounded, or shape-wrapped element. Duplicate rows as needed.</p>
+            <p>
+                This composition plan documents the layout, positioning, layering, and shape enhancements
+                planned for Postmarked: The Lost Art of Sending Postcards.
+                The design combines vintage postcard details with a modern editorial 
+                magazine layout.
+            </p>
             <table>
                 <thead>
                     <tr>
@@ -45,13 +50,23 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Example only</td>
-                        <td>Replace</td>
-                        <td>Replace</td>
-                        <td>Replace</td>
-                        <td>Replace</td>
-                        <td>Replace</td>
-                        <td>Replace</td>
+                        <td>Feature postcard image</td>
+                        <td>Introduces the story with decorative postcard artwork.</td>
+                        <td>Image appears as a regular figure with a caption</td>
+                        <td>Border-radius softens corners and clip-path creates an angled shape.</td>
+                        <td>The feature figure provides the visual boundary.</td>
+                        <td>Display the original rectangular image if clipping is unsupported.</td>
+                        <td>Disable clip-path and test image readability.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Postcard illustration</td>
+                        <td>Adds a visual element beside the article text.</td>
+                        <td>Image appears as a block before the paragraph.</td>
+                        <td>Float and shape-outside create an editorial text wrap.</td>
+                        <td>The article section contains the float using flow-root.</td>
+                        <td>Use a block image when shape wrapping is unavailable.</td>
+                        <td>Disable shape-outside and test at all viewport sizes.</td>
                     </tr>
                 </tbody>
             </table>
