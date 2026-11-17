@@ -45,3 +45,5 @@ A mix of vintage nostalgia and modern editorial design, using warm colors, creat
     https://unsplash.com/photos/dZZxUjWUx_o
 
 -Step 17: Connected the vintage postcard photograph to the article and added description alt text and image attribution. 
+
+-Step 18: Added a clip-path enhancement to the feature photograph and checked its rectangular fallback.
