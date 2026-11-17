@@ -115,4 +115,19 @@ Text and images remain readable without horizontal scrolling.
 Navigation does not cover the article content.
 
 Evidence: 
+images/screenshotsResponsive
 Screenshots captured at 1440px, 768px, and 375px
+
+# --- Keyboard Accessibility Test ---
+Test: November 17th, 2026
+Browser: Google Chrome
+
+Result: Pass
+
+Tab navigation follows a logical order. 
+Focused links have a visible focus indicator.
+Navigation links work using the Enter key.
+Image credits and documentation links are accessible using the keyboard.
+
+Evidence: 
+images/ScreenshotsKeyboard
