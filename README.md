@@ -51,3 +51,5 @@ A mix of vintage nostalgia and modern editorial design, using warm colors, creat
 -Step 19: Kept the oval postcard image to complement the magazine vintage editorial aesthetic.
 
 -Step 20: added vintage editorial dividers and decorative details to the article section heading
+
+-Step 21: verified the article meets the 600-900 word requirement and corrected minor text and heading issues.
