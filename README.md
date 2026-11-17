@@ -34,3 +34,5 @@ A mix of vintage nostalgia and modern editorial design, using warm colors, creat
 -Step 12: Styled the pull quote as a layered paper element with a controlled overlap on larger screens.
 
 -Step 13: Added tow postcard illustrations to the article for a decorative layered collage. 
+
+-Step 14: styled the postcard collage with Grid, rotation, and controlled layering. 

@@ -211,3 +211,88 @@ img{
         transform: rotate(-2deg);
     }
 }
+
+/* Postcard collage */
+.postcard-collage {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: center;
+    gap: 0;
+    margin: 3rem 0;
+    padding: 2rem 1rem;
+    isolation: isolate;
+}
+
+.postcard {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 0;
+    min-height: 15rem;
+    padding: 1.5rem;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    box-shadow: 0 8px 20px rgb(73 53 47 / 15%);
+}
+
+.postcard-one{
+    background: #a3a88d;
+    color: #fff;
+    transform: rotate(-5deg);
+    z-index: var(--layer-base);
+}
+
+.postcard-two {
+    background: #fffaf3;
+    color: var(--color-text);
+    margin-inline-start: -2rem;
+    transform: rotate(5deg);
+    z-index: var(--layer-raised);
+}
+
+.postcard-label {
+    font-family: Georgia, serif;
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+.postcard-place {
+    font-family: Georgia, serif;
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    line-height: 1.1;
+}
+
+.postcard-message {
+    font-family: Georgia, serif;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+.postcard-detail {
+    font-family: Georgia, serif;
+    font-size: .9rem;
+    font-style: italic;
+}
+
+.postcard-collage figcaption {
+    grid-column: 1/-1;
+    margin-top: 2rem;
+    color: var(--color-muted);
+    font-size: .85rem;
+    text-align: center;
+}
+
+@media (max-width: 40rem) {
+    .postcard-collage {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        padding: 1rem 0;
+    }
+
+    .postcard-one,
+    .postcard-two {
+        margin-inline-start: 0;
+        transform: none;
+    }
+}
