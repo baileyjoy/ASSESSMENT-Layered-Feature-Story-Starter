@@ -90,3 +90,29 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/position
 https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/clip-path
 https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/shape-outside
 
+# --- Responsive Layout Test ---
+Test date: November 17th, 2026
+Browser: Google Chrome
+Method: Chrome Developer Tool
+
+Desktop: 1440px
+Result: pass
+The sidebar and article display in two columns.
+The postcard collage and images display correctly 
+The sticky navigation stays within the article layout
+and does not overlap documentation section.
+
+Tablet: 768px
+Result: pass
+The layout remains readable and usable.
+Images fit within the viewport without horizontal scrolling.
+Navigation and article content remain accessible.
+
+Mobile: 375px
+Result: pass
+The postcard collage adjusts for the smaller screen.
+Text and images remain readable without horizontal scrolling.
+Navigation does not cover the article content.
+
+Evidence: 
+Screenshots captured at 1440px, 768px, and 375px
