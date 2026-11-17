@@ -131,3 +131,23 @@ Image credits and documentation links are accessible using the keyboard.
 
 Evidence: 
 images/ScreenshotsKeyboard
+
+# ---CSS Fallback Testing ---
+Test date: November 17, 2026
+Browser: Google Chrome
+Method: Disabled CSS declarations using DevTool
+
+Test. 1: Clip-path disabled
+Result: Pass
+The vintage postcard photographed remained visible when clip oath was disabled. The decorative paper-cut edges disappeared, but the image retained its normal rectangular shape and remained readable
+
+Test 2: Shape-outside Disabled
+Result: Pass
+The oval botanical illustration remained visible when shape-outside was disabled. The surrounding text wrapped around the rectangular floated image instead of following the curved boundary. All text remained readable and accessible.
+
+During testing, a duplicate @support rule for shape-outside was discovered in styles.css. The duplicate rule was removed, and the fallback was tested again.
+
+Fallback Testing Summary
+Both CSS enhancements were tested by temporarily disabling their declarations in Chrome DevTools
+
+Evidence: images/screenshotsCSSfallback
