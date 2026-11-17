@@ -152,13 +152,16 @@ img{
     box-shadow: 6px 6px 0 var(--color-accent);
 }
 
-/* Ppstcard image with editorial text message */
+/* Postcard image with editorial text message */
 .shape-portrait{
     display: block;
     width:min(45%,18rem);
     height: auto;
     margin:0 1.5rem 1rem 0;
     border-radius:50%;
+    border: 5px double #b89b72;
+    padding: 5px;
+    background-color: #fffaf3;
 }
 
 @media (min-width: 52rem){
@@ -334,4 +337,13 @@ img{
         margin-inline-start: 0;
         transform: none;
     }
+}
+
+article section h2{
+    color: var(--color-action);
+    font-family: Georgia, serif;
+    font-size: clamp(1.6rem, 3vw, 2.2rem);
+    line-height: 1.25;
+    margin-bottom: 1.5rem;
+    padding
 }
