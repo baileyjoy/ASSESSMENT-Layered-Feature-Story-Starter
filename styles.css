@@ -345,5 +345,16 @@ article section h2{
     font-size: clamp(1.6rem, 3vw, 2.2rem);
     line-height: 1.25;
     margin-bottom: 1.5rem;
-    padding
+    padding-bottom: .75rem;
+    border-bottom: 1px solid var(--color-border);
 }
+
+/* Small decorative detail below each heading */
+article section h2::after{
+    content: "+";
+    display: block;
+    color: var(--color-action);
+    font-size: .9rem;
+    margin-top: .5rem;
+}
+
