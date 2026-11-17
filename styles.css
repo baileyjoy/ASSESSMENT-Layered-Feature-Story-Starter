@@ -151,11 +151,28 @@ img{
     line-height: 1.5;
     box-shadow: 6px 6px 0 var(--color-accent);
 }
+
+/* Ppstcard image with editorial text message */
 .shape-portrait{
-    width:min(45%,20rem);
-    margin:0 1rem 1rem 0;
+    display: block;
+    width:min(45%,18rem);
+    height: auto;
+    margin:0 1.5rem 1rem 0;
     border-radius:50%;
 }
+
+@media (min-width: 52rem){
+    .shape-portrait {
+        float: left;
+    }
+    @supports (shape-outside: circle(50%)) {
+        .shape-portrait {
+            shape-outside: circle(50%);
+            shape-margin: 1rem;
+        }
+    }
+}
+
 .documentation{
     grid-column:1/-1;
     padding:1rem;

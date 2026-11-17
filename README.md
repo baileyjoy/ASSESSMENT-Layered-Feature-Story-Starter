@@ -47,3 +47,5 @@ A mix of vintage nostalgia and modern editorial design, using warm colors, creat
 -Step 17: Connected the vintage postcard photograph to the article and added description alt text and image attribution. 
 
 -Step 18: Added a clip-path enhancement to the feature photograph and checked its rectangular fallback.
+
+-Step 19: Kept the oval postcard image to complement the magazine vintage editorial aesthetic.
