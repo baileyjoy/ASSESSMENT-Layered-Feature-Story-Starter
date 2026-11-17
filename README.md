@@ -28,3 +28,5 @@ A mix of vintage nostalgia and modern editorial design, using warm colors, creat
 -Step Nine: Created a composition plan documenting the magazine's positioning, layers, and shapes.
 
 -Step Ten: Styled the magazine header and added a responsive postage-stamp inspired badge. 
+
+-Step Eleven: Styled the article layout using css grid and added responsive sticky story navigation.

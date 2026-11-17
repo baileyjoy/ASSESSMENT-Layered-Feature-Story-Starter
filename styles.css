@@ -85,13 +85,14 @@ h2{
 }
 main{
     display:grid;
-    gap:2rem;
-    max-width:72rem;
-    margin:auto;
-    padding:var(--space-3);
+    gap:clamp(1.5rem, 4vw, 3rem);
+    max-width:80rem;
+    margin-inline:auto;
+    padding: clamp(1rem, 3vw, 2rem);
 }
 article{
     min-width:0;
+    max-width: 75ch;
 }
 article section{
     display:flow-root;
@@ -100,13 +101,30 @@ article section{
 }
 .story-guide{
     align-self:start;
-    padding:1rem;
+    padding:1.5rem;
+    background: #fffaf3;
     border:1px solid var(--color-border);
+    border-radius: var(--radius);
+}
+
+.story-guide h2 {
+    margin-top: 0;
+    font-size: 1.3rem;
+    color: var(--color-action);
 }
 .story-guide a{
     display:block;
-    padding:.4rem;
+    padding:.6rem 0;
+    color: var(--color-text);
+    text-decoration: none;
+    border-bottom: 1px solid var(--color-border);
 }
+
+.story-guide a:hover{
+    color: var(--color-action);
+    text-decoration: underline;
+}
+
 .feature-figure{
     position:relative;
     margin:0;
