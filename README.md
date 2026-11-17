@@ -55,3 +55,5 @@ A mix of vintage nostalgia and modern editorial design, using warm colors, creat
 -Step 21: verified the article meets the 600-900 word requirement and corrected minor text and heading issues.
 
 -Step 22: Replaced the documentation placeholder with a composition plan link, CSS support overview, image credits and AI assistance disclosure. 
+
+-Step 23: Fixed the sticky "in this story" navigation by placing the sidebar and article inside a shared story-layout container. Updated CSS Grid so the nav remains in the left column and is bounded by the article instead of extending into the documentation section.

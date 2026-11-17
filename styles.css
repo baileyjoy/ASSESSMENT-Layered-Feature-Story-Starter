@@ -84,11 +84,14 @@ h2{
     transform:rotate(-4deg);
 }
 main{
-    display:grid;
-    gap:clamp(1.5rem, 4vw, 3rem);
-    max-width:80rem;
-    margin-inline:auto;
-    padding: clamp(1rem, 3vw, 2rem);
+    max-width: 80rem;
+    margin: auto;
+    padding: var(--space-3);
+}
+
+.story-layout{
+    display: grid;
+    gap: 2rem;
 }
 article{
     min-width:0;
@@ -127,7 +130,7 @@ article section{
 
 .feature-figure{
     position:relative;
-    margin:0;
+    margin:1rem 0;
     padding:1rem;
     border:1px solid var(--color-border);
     border-radius:var(--radius);
@@ -183,7 +186,8 @@ img{
 }
 @media (min-width:52rem){
     main{
-        grid-template-columns:14rem 1fr;
+        grid-template-columns:14rem minmax(0,1fr);
+        align-items: start;
     }
     .story-guide{
         position:sticky;
@@ -209,6 +213,8 @@ img{
         position: relative;
         margin: 2rem 0;
         padding: 1rem;
+        max-width: 42rem;
+        margin-inline:auto;
         background: #fffaf3;
         border: 1px solid var(--color-border);
         border-radius: var(--radius);
@@ -261,6 +267,7 @@ img{
     align-items: center;
     gap: 0;
     margin: 3rem 0;
+    margin-bottom: 1rem;
     padding: 2rem 1rem;
     isolation: isolate;
 }
@@ -356,5 +363,15 @@ article section h2::after{
     color: var(--color-action);
     font-size: .9rem;
     margin-top: .5rem;
+}
+
+/* Desktop article and sidebar layout */
+@media (min-width: 52rem) {
+    .story-layout {
+        display: grid;
+        grid-template-columns: 14rem minmax(0,1fr);
+        gap: 2rem;
+        align-items: start;
+    }
 }
 
