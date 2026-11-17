@@ -36,3 +36,10 @@ A mix of vintage nostalgia and modern editorial design, using warm colors, creat
 -Step 13: Added tow postcard illustrations to the article for a decorative layered collage. 
 
 -Step 14: styled the postcard collage with Grid, rotation, and controlled layering. 
+
+-Step 15: Created an images folder to organize the magazine's visual assets.
+
+-Step 16: Added a vintage postcard photograph to the images folder
+    Image Credit:
+    Fiona Murray-deGraaff / Unsplash
+    https://unsplash.com/photos/dZZxUjWUx_o
