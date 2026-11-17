@@ -26,3 +26,5 @@ A mix of vintage nostalgia and modern editorial design, using warm colors, creat
 -Step Eight: Added personal story about collecting and sending postcards during my six weeks in Ireland.
 
 -Step Nine: Created a composition plan documenting the magazine's positioning, layers, and shapes.
+
+-Step Ten: Styled the magazine header and added a responsive postage-stamp inspired badge. 
